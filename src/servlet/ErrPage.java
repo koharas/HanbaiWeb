@@ -17,7 +17,7 @@ public class ErrPage {
 	}
 
 	void show(String mes,String url)  throws ServletException, IOException{
-		request.setAttribute("title", "エラー");
+		request.setAttribute("title", "Error");
 		request.setAttribute("mes", mes);
 		request.setAttribute("url", url);
 

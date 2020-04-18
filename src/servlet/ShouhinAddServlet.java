@@ -44,7 +44,7 @@ public class ShouhinAddServlet extends HttpServlet {
 		String tankaStr = request.getParameter("tanka");
 		if( sname == "" || tankaStr =="") {
 			/*
-			request.setAttribute("title", "エラー");
+			request.setAttribute("title", "Error");
 			request.setAttribute("mes", "正しく入力してください。");
 			request.setAttribute("url", "shouhin");
 
